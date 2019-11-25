@@ -24,7 +24,7 @@ def directors_totals(nds)
       row_index += 1 
   end
   new_hash
-  
+end
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
@@ -59,4 +59,4 @@ def directors_totals(nds)
   # puts result.length
   # puts directors_array.length
   # result
-end
+
