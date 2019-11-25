@@ -6,7 +6,7 @@ require 'directors_database'
 # get array of directors, length should be 9
 # get array of worldwide_gross for each director for all movies
 # zip arrays together to form hash 
-puts directors_database[0][:movies][5][:worldwide_gross]
+# puts directors_database[0][:movies][5][:worldwide_gross]
 def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
