@@ -9,7 +9,7 @@ require 'pry'
 # zip arrays together to form hash 
 # puts directors_database[0][:movies][5][:worldwide_gross]
 def directors_totals(nds)
-  binding.pry
+  # binding.pry
   new_hash = {}
   row_index = 0 
    
