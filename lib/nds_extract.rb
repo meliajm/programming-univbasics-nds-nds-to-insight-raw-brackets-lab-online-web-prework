@@ -15,8 +15,8 @@ def directors_totals(nds)
   while row_index < directors_database.length do
       new_index = 0 
       # directors_array.push(directors_database[row_index][:name])
-      while new_index < directors_database[row_index][:movies].length do 
-          new_hash[directors_database[row_index][:name]] = (directors_database[row_index][:movies][new_index][:worldwide_gross])
+      while new_index < nds[row_index][:movies].length do 
+          new_hash[nds[row_index][:name]] = (directors_database[row_index][:movies][new_index][:worldwide_gross])
           new_index += 1
       end
       row_index += 1 
